@@ -1,0 +1,13 @@
+POST http://localhost:999/chat?token=TN51EN HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+Content-Length: 35
+
+{"message":"What are you doing?"}
+
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 08:14:21 GMT
+Transfer-encoding: chunked
+
+0
+

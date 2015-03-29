@@ -1,0 +1,11 @@
+GET http://localhost:999/chat?token=TN11EN HTTP/1.1
+Host: localhost:999
+User-Agent: Fiddler
+
+
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 21:13:16 GMT
+Access-control-allow-origin: *
+Content-length: 268
+
+{"messages":[{"id":"1","message":"Hi!","user":"User1"},{"id":"2","message":"","user":"User2"},{"id":"3","message":"Hello. How are you?","user":"User2"},{"id":"4","message":"Fine. And you?","user":"User1"},{"id":"5","message":"Me too","user":"User2"}],"token":"TN51EN"}

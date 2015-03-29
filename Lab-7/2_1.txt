@@ -1,0 +1,14 @@
+DELETE http://localhost:999/chat?token=TN11EN HTTP/1.1
+User-Agent: Fiddler
+Host: localhost:999
+Content-Length: 12
+
+{"id":"2"}
+
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 21:12:18 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
+

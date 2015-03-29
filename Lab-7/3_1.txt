@@ -1,0 +1,14 @@
+PUT http://localhost:999/chat?token=TN11EN HTTP/1.1
+User-Agent: Fiddler
+Host: localhost:999
+Content-Length: 45
+
+{"id":"3", "message":"Hello. How are you?"}
+
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 21:13:11 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
+

@@ -1,0 +1,12 @@
+GET http://localhost:8888/chat?token=TN11EN HTTP/1.1
+User-Agent: Java/1.8.0_20
+Host: localhost:8888
+Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+Connection: keep-alive
+
+
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 09:20:52 GMT
+Content-length: 101
+
+{"messages":["Hi!","How are you?","I'm fine, you?","Me too ","What are you doing?"],"token":"TN11EN"}

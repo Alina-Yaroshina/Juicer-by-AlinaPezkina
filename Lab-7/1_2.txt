@@ -1,0 +1,13 @@
+POST http://localhost:999/chat HTTP/1.1
+Host: localhost:999
+User-Agent: Fiddler
+Content-Length: 45
+
+{"id":"2", "user":"User2", "message":"Hello"}
+HTTP/1.1 200 OK
+Date: Sun, 29 Mar 2015 21:08:37 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
+
