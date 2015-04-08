@@ -10,7 +10,6 @@ var newMessage = function(text, user) {
 var mesList = [];
 var username = '';
 
-
 function run() {
     if(JSON.parse(localStorage.getItem("Chat username"))) {
         username = JSON.parse(localStorage.getItem("Chat username"));
@@ -202,4 +201,3 @@ function restore() {
 
     return item && JSON.parse(item);
 }
-
