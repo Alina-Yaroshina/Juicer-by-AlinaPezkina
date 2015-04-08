@@ -2,6 +2,7 @@ import org.json.simple.JSONObject;
 import java.io.*;
 import java.lang.Override;
 
+
 public class MessageInfo {
     private String user;
     private String message;
